@@ -1,0 +1,573 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f0db;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: transparent;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.login-btn, .join-btn {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.join-btn {
+    background-color: #7c4dff;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #666;
+}
+/* second page  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+}
+
+.poetry-banner {
+    background: url('poetry-future.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text-overlay {
+    background: #666;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-overlay h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+}
+
+.poetry-banner {
+    background: url('poetry-future.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.text-overlay {
+    background: #666;  
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.text-overlay h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .text-overlay h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-overlay h1 {
+        font-size: 28px;
+    }
+}
+/* third one */
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+}
+
+/* Section Layout */
+.work-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+/* Left Side (Image + Title & Description) */
+.work-left {
+    width: 100%;
+    background-color: #d8e6d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.work-content {
+    max-width: 80%;
+}
+
+/* Image Styling */
+.work-image {
+    width: 100px;  /* Adjust image size */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Title & Description */
+.work-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.work-description {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Right Side (Steps) */
+.work-right {
+    width: 100%;
+    background-color: #b0d89b;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.work-box {
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.work-box:hover {
+    transform: scale(1.05);
+}
+
+.work-box h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.work-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .work-section {
+        flex-direction: column;
+    }
+
+    .work-left, .work-right {
+        width: 100%;
+    }
+
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* fourth page */
+#sign-up{
+    font-family: Arial, sans-serif;
+    background:#e6f0db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.signup-page {
+    background: #c8e6c9;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.signup-page h1 {
+    font-size: 30px;
+    color: #1b5e20;
+    margin-bottom: 5px;
+}
+.signup-page p{
+    font-size: 25px;
+}
+.signup-page{
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.google-btn img {
+    width: 20px;
+}
+.divider {
+    margin: 15px 0;
+    color: #555;
+    font-size: 16px;
+}
+label {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    color: #1b5e20;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.terms {
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+}
+/* fifth page */
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+}
+
+/* Vision Section Styling */
+.vision-container {
+    background-color: #d8e6d0;  
+    padding: 50px 20px;
+}
+
+/* Heading Styling */
+.vision-heading {
+    font-size: 26px;
+    font-weight: bold;
+    color: #7d4ac7; 
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.vision-text {
+    font-size: 22px;
+    color: #4b6145;
+    font-weight: bold;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .vision-text {
+        font-size: 18px;
+    }
+}
+/* six page */
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+}
+
+/* Section Styling */
+.testimonial-section {
+    background-color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Heading Styling */
+.testimonial-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Testimonial Container */
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Testimonial Card */
+.testimonial-card {
+    background-color: #b7d3a8;
+    border-radius: 15px;
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* User Image */
+.user-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* User Name */
+.user-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #444;
+}
+
+/* User Review */
+.user-review {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .testimonial-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        width: 90%;
+    }
+}
+/* seven page */
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Footer Container */
+.footer-container {
+    background-color: #d8e6d0;
+    padding: 30px 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Left Section */
+.footer-left {
+    text-align: left;
+    width: 100%;
+    max-width: 250px;
+}
+
+.footer-logo {
+    width: 40px;
+    height: auto;
+}
+
+.footer-tagline {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.footer-rights {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Middle Section - Links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.footer-column {
+    text-align: left;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer-column a {
+    display: block;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-column a:hover {
+    color: #000;
+}
+
+/* Bottom Section */
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #bbb;
+    padding-top: 10px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.footer-bottom a:hover {
+    color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 20px;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
